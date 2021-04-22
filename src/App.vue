@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import AppNav2 from './components/AppNav2.vue';
+import AppNav2 from './components/AppNav.vue';
 
 export default {
   name: 'App',
