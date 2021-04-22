@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <app-nav-2></app-nav-2>
   </div>
 </template>
 
 <script>
+import AppNav2 from './components/AppNav2.vue';
 
 export default {
   name: 'App',
   components: {
+    AppNav2,
   },
 };
 </script>
- <<style lang="scss">
- 
+
+ <style lang="scss">
  </style>
